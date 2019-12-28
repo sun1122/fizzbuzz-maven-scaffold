@@ -48,7 +48,7 @@ public class MarsRoverTest {
         rover.move();
         String position = rover.getPosition();
         //then
-        assertThat(position).isEqualTo("45E");
+        assertThat(position).isEqualTo("45W");
 
     }
 
