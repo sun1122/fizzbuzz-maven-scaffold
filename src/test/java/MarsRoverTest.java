@@ -1,4 +1,6 @@
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 
@@ -115,6 +117,20 @@ public class MarsRoverTest {
         String position = roverController.excute(mission);
         //then
         assertThat(position).isEqualTo("66N");
+
+    }
+
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+
+    @Test
+    public void should_throw_IAE_when_land_out_of_area(){
+        // given
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage("X=20 is out of area width 10");
+        Area area = new Area(10,10);
+        Rover rover = new Rover();
+        rover.land(area,20,30,Rover.SOUTH);
 
     }
 }

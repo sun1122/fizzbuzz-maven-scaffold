@@ -4,6 +4,7 @@
  */
 public class RoverController {
     private Rover rover;
+
     public RoverController(Rover rover) {
         this.rover = rover;
     }
@@ -16,17 +17,16 @@ public class RoverController {
         int x1 = Integer.parseInt(commands[2]);
         int y1 = Integer.parseInt(commands[3]);
         String direction = commands[4];
-        Area area = new Area(x,y);
-        rover.land(area,x1,y1,direction);
-        for (int i = 5; i < commands.length ; i++) {
-            if(commands[i].equals("M")){
+        Area area = new Area(x, y);
+        rover.land(area, x1, y1, direction);
+        for (int i = 5; i < commands.length; i++) {
+            if (commands[i].equals("M")) {
                 rover.move();
             }
-            if(commands[i].equals("L")){
+            if (commands[i].equals("L")) {
                 rover.turnLeft();
             }
         }
-
 
 
         return rover.getPosition();
