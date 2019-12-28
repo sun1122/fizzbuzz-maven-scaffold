@@ -21,7 +21,7 @@ public class Rover {
 
     public void land(Area area, int x, int y, String direction) {
         if(!Area.containWiths(x,area)){
-            throw new IllegalArgumentException("X="+x+" is out of area width "+area.getX()+"");
+            throw new IllegalArgumentException("X="+x+" is out of area width "+area.getWidth());
         }
         //this.area = area;
         this.x = x;
