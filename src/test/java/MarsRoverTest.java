@@ -105,28 +105,16 @@ public class MarsRoverTest {
 
     }
 
-//    @Test
-//    public void should_turn_Right() {
-//        // given
-//        Area area = new Area(10, 10);
-//        Rover rover = new Rover();
-//        rover.land(area, 5, 5, Rover.SOUTH);
-//        //when
-//        rover.turnRight();
-//        String position = rover.getPosition();
-//        //then
-//        assertThat(position).isEqualTo("54S");
-//
-//    }
-   /* @Test
+
+    @Test
     public void should_excute_batch_commands() {
 
         Rover rover = new Rover();
         RoverController roverController = new RoverController(rover);
-        String mission ="10,10,5,5,E,M,L,M,R";
+        String mission ="10,10,5,5,E,M,L,M";
         String position = roverController.excute(mission);
         //then
-        assertThat(position).isEqualTo("66E");
+        assertThat(position).isEqualTo("66N");
 
-    }*/
+    }
 }
