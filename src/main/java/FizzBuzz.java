@@ -4,26 +4,22 @@
  */
 public class FizzBuzz {
 
-    private static final String FIZZBUZZ = "FizzBuzz";
-    private static final String FIZZ = "Fizz";
-    private static final String BUZZ = "Buzz";
+
 
     public static String fizzBuzz(int sayNum, int firstNum, int secondNum) {
         String result = "";
         //是3FIZZ 和 5BUZZ
         if (isFizzBuzz(sayNum, firstNum, secondNum)) {
-            result = FIZZBUZZ;
-        }
-        //3
-        if (isFizz(sayNum, firstNum)) {
-            result = FIZZ;
-        }
-        //5
-        if (isBuzz(sayNum, secondNum)) {
-            result = BUZZ;
+            result = "FizzBuzz";
+        } else if (isFizz(sayNum, firstNum)) {
+            result = "Fizz";
+        } else if (isBuzz(sayNum, secondNum)) {
+            result = "Buzz";
+        } else {
+            result = String.valueOf(sayNum);
         }
 
-        result = String.valueOf(sayNum);
+
         return result;
 
     }
