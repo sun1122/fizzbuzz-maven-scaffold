@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a94ba025-9d9b-4b03-94f1-0a758326bd1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/RoverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoverController.java" afterDir="false" />
+    <list default="true" id="a94ba025-9d9b-4b03-94f1-0a758326bd1f" name="Default Changelist" comment="pass">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RoverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RoverController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MarsRoverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MarsRoverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverTest.should_excute_batch_commands">
+  <component name="RunManager" selected="JUnit.MarsRoverTest.should_throw_IAE_when_land_out_of_area">
     <configuration name="MarsRoverTest.should_excute_batch_commands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ut-workshop1" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,21 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTest.should_move_forward_when_direction_to_north" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ut-workshop1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MarsRoverTest" />
-      <option name="METHOD_NAME" value="should_move_forward_when_direction_to_north" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MarsRoverTest.should_move_forward_when_direction_to_sorth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ut-workshop1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MarsRoverTest" />
       <option name="METHOD_NAME" value="should_move_forward_when_direction_to_sorth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsRoverTest.should_throw_IAE_when_land_out_of_area" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ut-workshop1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MarsRoverTest" />
+      <option name="METHOD_NAME" value="should_throw_IAE_when_land_out_of_area" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MarsRoverTest.should_throw_IAE_when_land_out_of_area" />
         <item itemvalue="JUnit.MarsRoverTest.should_excute_batch_commands" />
         <item itemvalue="JUnit.MarsRoverTest.should_turn_right" />
         <item itemvalue="JUnit.MarsRoverTest.should_turn_left" />
         <item itemvalue="JUnit.MarsRoverTest.should_move_forward_when_direction_to_sorth" />
-        <item itemvalue="JUnit.MarsRoverTest.should_move_forward_when_direction_to_north" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577496584481</updated>
-      <workItem from="1577496591058" duration="19687000" />
+      <workItem from="1577496591058" duration="21669000" />
     </task>
     <task id="LOCAL-00001" summary="red">
       <created>1577505799661</created>
@@ -204,7 +209,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577518557979</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pass">
+      <created>1577518659732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577518659732</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pass">
+      <created>1577519600907</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577519600907</updated>
+    </task>
+    <task id="LOCAL-00010" summary="red">
+      <created>1577520026014</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577520026014</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,26 +250,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1577514662490" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1577518556542">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1577520024312">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1577518556542" />
-    <state width="1237" height="98" key="GridCell.Tab.0.bottom" timestamp="1577518635116">
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1577520024312" />
+    <state width="1237" height="97" key="GridCell.Tab.0.bottom" timestamp="1577520619938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="98" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577518635116" />
-    <state width="1237" height="98" key="GridCell.Tab.0.center" timestamp="1577518635116">
+    <state width="1237" height="97" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577520619938" />
+    <state width="1237" height="97" key="GridCell.Tab.0.center" timestamp="1577520619938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="98" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577518635116" />
-    <state width="1237" height="98" key="GridCell.Tab.0.left" timestamp="1577518635116">
+    <state width="1237" height="97" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577520619938" />
+    <state width="1237" height="97" key="GridCell.Tab.0.left" timestamp="1577520619938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="98" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577518635116" />
-    <state width="1237" height="98" key="GridCell.Tab.0.right" timestamp="1577518635116">
+    <state width="1237" height="97" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577520619938" />
+    <state width="1237" height="97" key="GridCell.Tab.0.right" timestamp="1577520619938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="98" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577518635116" />
+    <state width="1237" height="97" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577520619938" />
     <state x="145" y="0" key="SettingsEditor" timestamp="1577500274345">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

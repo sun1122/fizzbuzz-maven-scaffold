@@ -13,6 +13,14 @@ public class Area {
         this.y = y;
     }
 
+    public static boolean containWiths(int width, Area area) {
+        boolean contains = true;
+        if (width > area.getX()) {
+            contains = false;
+        }
+        return contains;
+    }
+
     public void setY(int y) {
         this.y = y;
     }
