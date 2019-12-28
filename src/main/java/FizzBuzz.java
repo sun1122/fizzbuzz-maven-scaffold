@@ -38,15 +38,15 @@ public class FizzBuzz {
         }
         String result = "";
         //3FIZZ  5BUZZ 7Whizz
-        if (isFizzBuzzWhizz(sayNum, firstNum, secondNum, thirdNum)) {// 3 5 7
+        if (isFizzBuzzWhizz(sayNum, firstNum, secondNum, thirdNum)) {
             result += "FizzBuzzWhizz";
-        } else if (isFizzBuzz(sayNum, firstNum, secondNum)) {//3 5
+        } else if (isFizzBuzz(sayNum, firstNum, secondNum)) {
             result += "FizzBuzz";
-        } else if (isFizz(sayNum, firstNum)) {//3
+        } else if (isFizz(sayNum, firstNum)) {
             result += "Fizz";
-        } else if (isBuzz(sayNum, secondNum)) {//5
+        } else if (isBuzz(sayNum, secondNum)) {
             result += "Buzz";
-        } else if (isWhizz(sayNum, thirdNum)) {//7
+        } else if (isWhizz(sayNum, thirdNum)) {
             result += "Whizz";
         } else if (result.length() == 0) {
             result = String.valueOf(sayNum);
